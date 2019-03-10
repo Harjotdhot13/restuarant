@@ -1,7 +1,25 @@
 .nav-bar {
     background: #2f3e9b;
+    padding-left: 100px;
+    height: 50px;
+
+    .site-logo-container {
+        padding: 0px;
+
+        .navbar-brand {
+            width: 50px;
+            height: 50px;
+            padding: 0px;
+            margin-right: 14px;
+        }
+
+    }
+    
+    
     .nav-link {
         color: #ffffff;
+        height: 50px;
+        padding-top: 15px;
 
         &:hover {
             background: #19227a;

@@ -10,9 +10,14 @@
     .title-bar {
         background: #7885c7;
         color: #fff;
+
+        .main-title {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
         
         .title-info {
-            font-size: 14px;
+            font-size: 18px;
             padding-top: 30px;
         }
     }
