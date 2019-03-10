@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Restuarant
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
@@ -29,4 +29,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # restuarant
 Restuarant web app created in Angular as an Assignment
->>>>>>> a01fa527cd4637fc69f942fbd85725750bd8c630
