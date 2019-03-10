@@ -1,0 +1,90 @@
+<div class="home-page">
+
+  <div class="jumbotron title-bar">
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-2">
+        <h1>Ristorante Il Fornello</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-2">
+        <p class="title-info">Simple, fresh ingredients, prepared and cooked with love and passion become truly great
+          dishes, from
+          wood-oven baked Neapolitan style pizzas to pastas, entrees!</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container main-content">
+
+    <div class="row section">
+      <div class="col-sm-8">
+        <h2>Fichipizza</h2>
+        <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando
+          panado, honey and arugula.</p>
+        <p>
+          <a href="#">More &raquo;</a>
+        </p>
+      </div>
+      <div class="col-sm-3 col-sm-offset-1 sub-section">
+        <h4>Our Unique Culinary Creations</h4>
+      </div>
+    </div>
+    <hr>
+
+
+    <div class="row section">
+      <div class="col-sm-2 col-sm-offset-1">
+        <h4>This Month's Promotions</h4>
+      </div>
+
+      <div class="col-sm-8">
+        <h2>Weekend Grand Buffet</h2>
+
+
+        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six
+          main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person
+        </p>
+
+
+        <p><a href="#">More &raquo;</a></p>
+      </div>
+    </div>
+    <hr>
+
+
+    <div class="row section">
+      <div class="col-sm-8">
+        <h2>Tommy McHugh</h2>
+        <h4>Executive Chef</h4>
+        <p>Award winning three-star Michelin chef with wide International experience having worked closely with
+          whos-who in the culinary world, he specializes in creating mouthwatering Mediterranean-Italian experiences.
+        </p>
+      </div>
+      <div class="col-sm-3 col-sm-offset-1 sub-section">
+        <h4>Meet our Culinary <br>Specialists</h4>
+        <div class="row">
+          <div class="grid-container" *ngIf="items$">
+            <div class="grid-item">Item</div>
+            <div class="grid-item">Price</div>
+            <ng-container *ngFor="let item of items$ | async">
+              <div class="grid-item">
+                {{item.itemName}}
+              </div>
+              <div class="grid-item">
+                {{item.itemPrice | currency}}
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <app-footer></app-footer>
+
+
+
+</div>

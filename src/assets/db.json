@@ -1,0 +1,44 @@
+{
+    "menu": [
+        {
+            "itemId": 1,
+            "itemName": "Marinated Olives",
+            "itemPrice": 5.00
+        },
+        {
+            "itemId": 2,
+            "itemName": "Margherita Arancini",
+            "itemPrice": 9.95
+        },
+        {
+            "itemId": 3,
+            "itemName": "Squash Salad",
+            "itemPrice": 11.95
+        },
+        {
+            "itemId": 4,
+            "itemName": "Crispy Polenta Chips",
+            "itemPrice": 5.00
+        },
+        {
+            "itemId": 5,
+            "itemName": "Soup of the Day",
+            "itemPrice": 8.00
+        },
+        {
+            "itemId": 6,
+            "itemName": "Mushroom Fritti",
+            "itemPrice": 9.45
+        },
+        {
+            "itemId": 7,
+            "itemName": "Crispy Squid",
+            "itemPrice": 5.00
+        },
+        {
+            "itemId": 8,
+            "itemName": "Artisian Bread",
+            "itemPrice": 5.00
+        }
+    ]
+}

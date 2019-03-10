@@ -1,0 +1,46 @@
+
+.home-page {
+
+    .jumbotron {
+        margin-bottom: 0px;
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .title-bar {
+        background: #7885c7;
+        color: #fff;
+        
+        .title-info {
+            font-size: 14px;
+            padding-top: 30px;
+        }
+    }
+    .main-content {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .section {
+        padding-top: 50px;
+       
+        .sub-section {
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #3c5863;
+            padding: 4px;
+          }
+          .grid-item {
+            background-color: #fff;
+            border: 1px solid #fff;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            color: #3c5863;
+          }
+    }
+
+}

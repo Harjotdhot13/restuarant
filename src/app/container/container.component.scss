@@ -1,0 +1,13 @@
+.nav-bar {
+    background: #2f3e9b;
+    .nav-link {
+        color: #ffffff;
+
+        &:hover {
+            background: #19227a;
+        }
+        &:active, &:focus, &.active {
+            background: #19227a;
+        }
+    }
+}
